@@ -1,5 +1,9 @@
+* {
+  color: white;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-color: black;
 }
 
@@ -12,17 +16,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  border: 1px solid #61dafb;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -38,31 +31,35 @@
   }
 }
 
+header {
+  border: 1px solid #61dafb;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 50px;
+}
+
 main {
   border: 1px solid #61dafb;
-  min-height: 70vh;
+  min-height: 80vh;
   color: white;
 }
 
 footer {
-  background-color: #282c34;
   border: 1px solid #61dafb;
   display: flex;
   align-items: center;
   justify-content: space-around;
   min-height: 10vh;
-  color: white;
 }
-
-
 footer button{
   border: 1px solid red;
-  width: 100px;
-  height: 50px;
+  width: 100%;
+  height: 500px;
   background-color: #282c34;
-}
-
-footer button.gym{
-  background-image: "/img/gym.png";
-  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
 }

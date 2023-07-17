@@ -4,17 +4,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        운동
+      <header>
+        <div>편집</div>
+        <div>+</div>
       </header>
       <main>
-
+        <h1>운동</h1>
+        <ul>
+          <li>
+            sdkfa
+          </li>
+        </ul>
       </main>
       <footer>
-        <button className="record">기록</button>
-        <button className="gym">운동</button>
-        {/* <button style={{ backgroundImage: "url(/gym.png)" }}>운동</button> */}
-        <button className="profile">프로필</button>
+        <button style={{ backgroundImage: "url(/images/record.png)" }}></button> 
+        <button style={{ backgroundImage: "url(/images/gym.png)" }}></button>
+        <button style={{ backgroundImage: "url(/images/profile.png)" }}></button>
       </footer>
     </div>
   );
